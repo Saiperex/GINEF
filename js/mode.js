@@ -25,5 +25,8 @@ for (let i = 0; i < modo.length; i++)
         }
         document.querySelector(".sobre_texto").classList.toggle("sobre_textoDark")
         document.querySelector(".verMas").classList.toggle("menuItemDark")
+        document.querySelector(".path2").classList.toggle("pathDark")
+        document.querySelector(".iluminacion").classList.toggle("bgDark")
+        document.querySelector(".iluminacion_texto").classList.toggle("sobre_textoDark")
     })
 }

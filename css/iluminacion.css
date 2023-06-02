@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    transition:background-color 300ms ease-in-out ;
 }
 
 .path2 {
@@ -12,6 +13,7 @@
     height: 5vh;
     clip-path: polygon(100% 0%, 0% 0%, 0% 50%, 100% 100%);
     background-color: #3aafa9;
+    transition:background-color 300ms ease-in-out ;
 }
 .iluminacion_svg
 {
@@ -47,6 +49,7 @@
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    transition: color 300ms ease-in-out, text-shadow 300ms ease-in-out;
 }
 /**/
 .conteinerCards
