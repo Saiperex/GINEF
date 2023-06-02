@@ -1,0 +1,86 @@
+@media screen and (max-width:1000px)
+{
+    .cabecera
+    {
+        display: none;
+    }
+    .sliderButton
+    {
+        display: flex;
+    }
+    .sliderPanel
+    {
+        display: flex;
+    }
+    /**/
+    .path
+    {
+        display: none;
+    }
+    .inicio_logo
+    {
+        width: 100%;
+        height: 50vh;
+    }
+    .inicio_texto
+    {
+        width: 100%;
+        height: 50vh;
+    }
+    .texto
+    {
+        width: 80%;
+        height: 80%;
+        font-size: 1.1vh;
+    }
+    .inicio_logo h1
+    {
+        font-size: 8vh;
+    }
+    .logo
+    {
+        width: 80%;
+    }
+    /**/
+    .sobre_texto
+    {
+        width: 100%;
+        height: 50vh;
+    }
+    .sobre_texto h2
+    {
+        font-size: 6vh;
+    }
+    .sobre_texto p
+    {
+        font-size: 2vh;
+    }
+    .sobre_animation
+    {
+        width: 100%;
+        height: 50vh;
+    }
+    .verMas
+    {
+        margin-top: 2vh;
+    }
+    /**/
+    .path2
+    {
+        display: none;
+    }
+    .iluminacion_svg
+    {
+        width: 100%;
+        height: 50vh;
+    }
+    .iluminacion_texto
+    {
+        width: 100%;
+    }
+    .card
+    {
+        width: 80%;
+        margin: 1vh 0;
+    }
+}

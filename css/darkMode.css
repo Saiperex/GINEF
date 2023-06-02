@@ -1,0 +1,36 @@
+.bgDark
+{
+    background-color: rgb(9, 0, 34);
+}
+.pathDark
+{
+    background-color: rgb(9, 0, 34);
+}
+.switchDark 
+{
+    background-color: #000;
+}
+.switchPositionDark
+{
+    left: 4vh;
+    transform: rotate(75deg);
+}
+.menuItemDark
+{
+    border: solid 1px #fff;
+    color: #fff;
+    box-shadow: inset 0px 0px 5px #01FFFF,inset 0px 0px 10px #01FFFF, 0px 0px 5px #01FFFF,0px 0px 10px #01FFFF, 0px 0px 20px #01FFFF;
+    text-shadow: 0px 0px 5px #01FFFF;
+}
+.textoDark
+{
+    border: solid 2px #fff;
+    color: #fff;
+    box-shadow: inset 0px 0px 5px #01FFFF,inset 0px 0px 10px #01FFFF, 0px 0px 5px #01FFFF,0px 0px 10px #01FFFF, 0px 0px 20px #01FFFF;
+    text-shadow: 0px 0px 5px #01FFFF;
+}
+.sobre_textoDark
+{
+    color: #FFF;
+    text-shadow: 0px 0px 10px #01FFFF;
+}

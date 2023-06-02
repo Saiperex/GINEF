@@ -1,0 +1,84 @@
+.inicio
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inicio_logo
+{
+    width: 60%;
+    height: 100vh;
+    background-image: url("../img/bg.gif");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo
+{
+    width: 60%;
+    height: fit-content;
+    user-select: none;
+    pointer-events: none;
+    filter: drop-shadow(10px 10px 10px #000);
+}
+.inicio_logo h1
+{
+    position: absolute;
+    text-shadow: 10px 10px 10px rgba(10, 10, 10, .5);
+    top: 60%;
+    font-family: 'Shrikhand', cursive;
+    font-size: 15vh;
+}
+.path
+{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    clip-path: polygon(100% 0%, 50% 0%, 0% 100%, 100% 100%);
+    background-color: #3aafa9;
+    top: 0;
+    right: -2px;
+    transition: background-color 300ms ease-in-out;
+}
+/**/
+.inicio_texto
+{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto
+{
+    width: 80%;
+    height: 80%;
+    border: solid 1px #000;
+    border-radius: 15px;
+    padding: 5%;
+    font-family: 'Anton', sans-serif;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 10px 10px rgb(66, 66, 66);
+    transition: border 300ms ease-in-out,color 300ms ease-in-out;
+}
+.incioButtons
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.boton
+{
+    font-size: 2vh;
+    height: 5vh;
+    padding: 0 1vh;
+    font-family: 'Anton', sans-serif;
+    border: solid 1px #000;
+    background-color: transparent;
+}

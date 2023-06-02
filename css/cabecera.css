@@ -1,0 +1,65 @@
+.cabecera {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(15px);
+}
+
+.cabeceraMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    font-size: .8vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.switch {
+    height: 4vh;
+    width: 8vh;
+    background-color: #ffc800;
+    border-radius: 30px;
+    border: solid 1px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: background-color 500ms ease-in-out;
+    cursor: pointer;
+}
+
+.switch i {
+    width: 4vh;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2vh;
+}
+
+.switchPosition {
+    width: 4vh;
+    height: 4vh;
+    position: absolute;
+    left: 0vh;
+    background: linear-gradient(45deg, #535353 0%, #aca9a9 50%, #353735 100%);
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: left 300ms ease-in-out, transform 300ms ease-in-out;
+}
+
+.menuItem {
+    border: solid 1px #000;
+    color: #000;
+    padding: 0 2vh;
+    border-radius: 10px;
+    transition: border 300ms ease-in-out, color 300ms ease-in-out, box-shadow 300ms ease-in-out, text-shadow 300ms ease-in-out;
+    cursor: pointer;
+}

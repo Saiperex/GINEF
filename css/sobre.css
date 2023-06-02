@@ -1,0 +1,52 @@
+.sobre
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobre_texto
+{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vw;
+    align-items: flex-start;
+    font-family: 'Anton', sans-serif;
+    transition: color 300ms ease-in-out,text-shadow 300ms ease-in-out;
+}
+.sobre_texto h2
+{
+    font-size: 13vh;
+    font-weight: 500;
+}
+.sobre_texto p
+{
+    font-size: 3vh;
+}
+.verMas
+{
+    border: solid 1px #000;
+    font-size: 3vh;
+    width: 30%;
+    padding: 10px 0;
+    margin-top: 1vh;
+    font-family: 'Anton', sans-serif;
+    background-color: transparent;
+    transition: border 300ms ease-in-out, color 300ms ease-in-out, box-shadow 300ms ease-in-out,
+}
+.sobre_animation
+{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre_animation object
+{
+    z-index: 1;
+    width: 80%;
+    filter: drop-shadow(-5px 5px 50px #fff);
+    border-radius: 0 0 50px 50px;
+}
