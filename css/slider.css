@@ -54,3 +54,8 @@
 {
     margin: 2vh 0;
 }
+.sliderPanel .menuItem
+{
+    color: #fff;
+    border-color: #fff;
+}

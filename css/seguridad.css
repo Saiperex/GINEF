@@ -21,7 +21,7 @@
     height: 100%;
     place-self: center;
 }
-.seguridad_animacion p
+.parrafoAnimacion
 {
     width: 90%;
     grid-area: texto;
