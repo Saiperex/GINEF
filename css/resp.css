@@ -83,4 +83,21 @@
         width: 80%;
         margin: 1vh 0;
     }
+    /**/
+    .seguridadArea
+    {
+        width: 100%;
+    }
+    .seguridad_animacion object
+    {
+        height: 50%;
+    }
+    .textoBlur
+    {
+        font-size: 1vh;
+    }
+    .seguridad_animacion p
+    {
+        font-size: 2vh;
+    }
 }
