@@ -20,7 +20,7 @@ path2.setAttribute('fill', '#000');
 setInterval(() => {
   segundo++;
 
-  if (segundo === 2 || segundo === 8) {
+  if (segundo === 1 || segundo === 8) {
     changeFill();
   } else if (segundo === 10) {
     segundo = 0;

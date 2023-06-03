@@ -89,10 +89,10 @@
 {
     content: "";
     position: absolute;
-    bottom: -30px;
+    bottom: -30%;
     left: 0;
-    width: 30px;
-    height: 30px;
+    width: 30%;
+    height: 30%;
     background-color: transparent;
     border-top-left-radius: 30px;
     box-shadow: -5px -5px 0 5px var(--clr);
