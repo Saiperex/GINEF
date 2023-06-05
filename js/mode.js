@@ -29,5 +29,7 @@ for (let i = 0; i < modo.length; i++)
         document.querySelector(".iluminacion").classList.toggle("bgDark")
         document.querySelector(".iluminacion_texto").classList.toggle("sobre_textoDark")
         document.querySelector(".parrafoAnimacion").classList.toggle("sobre_textoDark")
+        document.querySelector(".senalizacion").classList.toggle("textoBlanco")
+        document.querySelector(".senalButton").classList.toggle("textoDark")
     })
 }

@@ -82,7 +82,6 @@
     width: 50%;
     height: 30%;
     border-bottom-right-radius:60px ;
-    transition: width 500ms ease-in-out;
     background-color:var(--clr);
 }
 .boxIcon::before

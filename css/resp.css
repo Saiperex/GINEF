@@ -100,4 +100,9 @@
     {
         font-size: 2vh;
     }
+    /**/
+    .senalizacion
+    {
+        height: fit-content;
+    }
 }

@@ -1,0 +1,65 @@
+.senalizacion {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    background-image: url("../img/señales.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: color 500ms ease-in-out;
+    border-top: solid 1px #fff;
+}
+.description {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.senalizacion h2 {
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+.senalizacion h3 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.senalizacion ul {
+    text-align: left;
+    margin-top: 30px;
+    background-color: rgba(250, 250, 250, .5);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.senalizacion li {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.senalizacion li i {
+    color: #000;
+    margin-right: 10px;
+}
+
+.senalizacion h3 {
+    margin-bottom: 20px;
+}
+.senalButton
+{
+    width: 10rem;
+    padding: 10px ;
+    font-family: 'Anton', sans-serif;
+    background-color: transparent;
+    font-size: 1.5rem;
+    margin: 10px;
+    border: solid 1px #000;
+}
+
