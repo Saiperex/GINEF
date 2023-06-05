@@ -105,4 +105,9 @@
     {
         height: fit-content;
     }
+    /**/
+    .item
+    {
+        width: 100%;
+    }
 }

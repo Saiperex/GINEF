@@ -1,0 +1,38 @@
+.container
+{
+    width:100% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vh;
+    justify-content: center;
+    padding: 1vh;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.mobiliario-items
+{
+    width: 80%;
+    display: flex;
+    margin: 3vh 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item
+{
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2vh 0;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px #000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 0px 10px;
+}
+.item i
+{
+    font-size: 8vh;
+}
