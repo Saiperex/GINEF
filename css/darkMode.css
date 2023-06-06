@@ -39,3 +39,11 @@
     color: #FFF;
     text-shadow: 0px 0px 5px #01FFFF;
 }
+.textoBlancoSolo
+{
+    color: #FFF;
+}
+.bordeSolo
+{
+    border:solid 1px #FFF;
+}
