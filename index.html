@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/mobiliario.css">
     <link rel="stylesheet" href="css/reciclado.css">
     <link rel="stylesheet" href="css/maquinaria.css">
+    <link rel="stylesheet" href="css/contacto.css">
 
     <link rel="stylesheet" href="css/resp.css">
     <link rel="stylesheet" href="css/darkMode.css">
@@ -259,48 +260,96 @@
         </section>
         <section class="reciclaje">
             <h2>Haciendo un cambio sostenible</h2>
-            <p>En Ginef, nos enorgullece contribuir al cuidado del medio ambiente. Por eso, utilizamos materiales reciclados en la fabricación de nuestro mobiliario urbano. Cada pieza que creamos está hecha con el compromiso de reducir el impacto ambiental y promover la sostenibilidad. Además de brindar funcionalidad y estilo a los espacios urbanos, nuestro mobiliario es una opción consciente y responsable. Únete a nosotros en este camino hacia un futuro más verde y sostenible</p>
+            <p>En Ginef, nos enorgullece contribuir al cuidado del medio ambiente. Por eso, utilizamos materiales
+                reciclados en la fabricación de nuestro mobiliario urbano. Cada pieza que creamos está hecha con el
+                compromiso de reducir el impacto ambiental y promover la sostenibilidad. Además de brindar funcionalidad
+                y estilo a los espacios urbanos, nuestro mobiliario es una opción consciente y responsable. Únete a
+                nosotros en este camino hacia un futuro más verde y sostenible</p>
             <object data="img/reciclado.svg" type="image/svg+xml" alt="Descripción del SVG"></object>
         </section>
         <section class="maquinarias">
             <h2>Maquinarias</h2>
-            <p>En Ginef, nos enorgullece ofrecer una amplia gama de maquinarias de alta calidad para diversas aplicaciones. Nuestras maquinarias son diseñadas y fabricadas con los más altos estándares para brindar eficiencia, durabilidad y rendimiento excepcionales.</p>
+            <p>En Ginef, nos enorgullece ofrecer una amplia gama de maquinarias de alta calidad para diversas
+                aplicaciones. Nuestras maquinarias son diseñadas y fabricadas con los más altos estándares para brindar
+                eficiencia, durabilidad y rendimiento excepcionales.</p>
             <div class="maquinarias-container">
-              <div class="maquinaria">
-                <img src="img/hidro.jpg" alt="Hidrolevadores">
-                <h3>Hidrolevadores</h3>
-                <p>Montados sobre vehículos y de arrastre.</p>
-              </div>
-              <div class="maquinaria">
-                <img src="img/aspirador.jpg" alt="Aspersores de hojas">
-                <h3>Aspirador de hojas</h3>
-                <p>Montados sobre chasis.</p>
-              </div>
-              <div class="maquinaria">
-                <img src="img/chipeadora.webp" alt="Chipeadoras y trituradoras de ramas">
-                <h3>Chipeadoras y trituradoras de ramas</h3>
-                <p></p>
-              </div>
-              <div class="maquinaria">
-                <img src="img/barredora.jpg" alt="Barredoras de arrastre">
-                <h3>Barredoras de arrastre</h3>
-                <p></p>
-              </div>
-              <div class="maquinaria">
-                <img src="img/compactador.jpg" alt="Compactadores de basura">
-                <h3>Compactadores de basura</h3>
-                <p></p>
-              </div>
-              <div class="maquinaria">
-                <img src="img/tanque.jpg" alt="Tanques de riego">
-                <h3>Tanques de riego</h3>
-                <p></p>
-              </div>
+                <div class="maquinaria">
+                    <img src="img/hidro.jpg" alt="Hidrolevadores">
+                    <h3>Hidrolevadores</h3>
+                    <p>Montados sobre vehículos y de arrastre.</p>
+                </div>
+                <div class="maquinaria">
+                    <img src="img/aspirador.jpg" alt="Aspersores de hojas">
+                    <h3>Aspirador de hojas</h3>
+                    <p>Montados sobre chasis.</p>
+                </div>
+                <div class="maquinaria">
+                    <img src="img/chipeadora.webp" alt="Chipeadoras y trituradoras de ramas">
+                    <h3>Chipeadoras y trituradoras de ramas</h3>
+                    <p></p>
+                </div>
+                <div class="maquinaria">
+                    <img src="img/barredora.jpg" alt="Barredoras de arrastre">
+                    <h3>Barredoras de arrastre</h3>
+                    <p></p>
+                </div>
+                <div class="maquinaria">
+                    <img src="img/compactador.jpg" alt="Compactadores de basura">
+                    <h3>Compactadores de basura</h3>
+                    <p></p>
+                </div>
+                <div class="maquinaria">
+                    <img src="img/tanque.jpg" alt="Tanques de riego">
+                    <h3>Tanques de riego</h3>
+                    <p></p>
+                </div>
             </div>
-          </section>
-          <section class="contacto">
-            
-          </section>
+        </section>
+        <section class="contacto">
+            <h2 class="contacto-titulo">CONTACTANOS</h2>
+            <h4>Y DESPEJA TODAS TUS DUDAS</h4>
+            <form class="contacto-formulario">
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="celular">Número de celular</label>
+                    <input type="tel" id="celular" name="celular" required>
+                </div>
+                <div class="campo">
+                    <label for="mail">Correo Electronico</label>
+                    <input type="tel" id="mail" name="mail" required>
+                </div>
+                <div class="campo">
+                    <label for="localidad">Localidad</label>
+                    <input type="text" id="localidad" name="localidad" required>
+                </div>
+                <div class="campo">
+                    <label for="contacto">Preferencia de contacto</label>
+                    <select id="contacto" name="contacto" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="whatsapp">WhatsApp</option>
+                        <option value="llamada">Llamada</option>
+                        <option value="correo">Correo electrónico</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="horario">Horario de contacto</label>
+                    <input type="text" id="horario" name="horario" required>
+                </div>
+                <button class="btn-enviar" type="submit">Enviar</button>
+            </form>
+            <div class="redes-sociales">
+                <h3 class="redes-titulo">Contacta con nosotros también en nuestras redes sociales:</h3>
+                <ul class="redes-lista">
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </section>
+
     </main>
     <script src="js/slider.js"></script>
     <script src="js/mode.js"></script>
