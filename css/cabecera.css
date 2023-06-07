@@ -56,8 +56,8 @@
 }
 
 .menuItem {
-    border: solid 1px #000;
-    color: #000;
+    border: solid 1px #fff;
+    color: #fff;
     padding: 0 2vh;
     border-radius: 10px;
     transition: border 300ms ease-in-out, color 300ms ease-in-out, box-shadow 300ms ease-in-out, text-shadow 300ms ease-in-out;

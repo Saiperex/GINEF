@@ -5,7 +5,7 @@ function prueba() {
   if (index >= 4) {
     index = 1;
   }
-  bg.style.backgroundImage = 'url("img/bg' + index + '.jpg")';
+  bg.style.backgroundImage = 'url("img/bg' + index + '.png")';
   index++;
 }
 
