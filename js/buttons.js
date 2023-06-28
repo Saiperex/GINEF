@@ -11,3 +11,11 @@ document.querySelector(".verMas").addEventListener("click",function()
 {
     window.open("nosotros.html", '_blank');
 })
+document.querySelector(".botonSeguridad").addEventListener("click",function()
+{
+    window.open("catalogo.html", '_blank');
+})
+document.querySelector(".senalButton").addEventListener("click",function()
+{
+    window.open("catalogo.html", '_blank');
+})
