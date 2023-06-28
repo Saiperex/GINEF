@@ -1,0 +1,52 @@
+body
+{
+    background-color: rgb(33, 33, 49);
+    overflow: hidden;
+}
+.menu-boton
+{
+    width: 5vh;
+    height: 5vh;
+    border: solid 1px white;
+    position: fixed;
+    top: 1vh;
+    left: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+}
+.line
+{
+    width: 80%;
+    height: 10%;
+    background-color: #fff;
+}
+/**/
+.principal
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.catalogo
+{
+    width: 700px;
+    height: 350px;
+}
+.imagenes
+{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:1000px)
+{
+    .catalogo
+    {
+        width: 300px;
+        height:150px;
+    }
+}

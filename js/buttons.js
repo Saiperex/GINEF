@@ -7,3 +7,7 @@ botones[1].addEventListener("click",function()
 {
     window.open("contacto.html", '_blank');
 })
+document.querySelector(".verMas").addEventListener("click",function()
+{
+    window.open("nosotros.html", '_blank');
+})
